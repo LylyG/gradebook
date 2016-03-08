@@ -1,4 +1,37 @@
 Rails.application.routes.draw do
+  get 'grade/show'
+
+  get 'grade/new'
+
+  get 'grade/create'
+
+  get 'grade/destroy'
+
+  get 'parent/show'
+
+  get 'parent/new'
+
+  get 'parent/create'
+
+  get 'parent/destroy'
+
+  get 'student/show'
+
+  get 'student/new'
+
+  get 'student/create'
+
+  get 'student/destroy'
+
+  namespace :admin do
+    resources :grades
+resources :parents
+resources :students
+resources :teachers
+
+    root to: "grades#index"
+  end
+
   resources :teachers
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
