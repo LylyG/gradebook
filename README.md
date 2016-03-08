@@ -7,4 +7,7 @@ A gradebook app for teachers to manage grades and keep track of parents and stud
 ```Ruby
 Code goes here
 ```
-Explore this app on <a href="glacial-dusk-60771.herokuapp.com">Heroku</a>. 
+Explore this app on <a href="glacial-dusk-60771.herokuapp.com">Heroku</a>.
+
+## Estimate: 1-5 scale
+Setup and understanding the assignment: 1.5
