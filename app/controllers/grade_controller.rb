@@ -3,6 +3,7 @@ class GradeController < ApplicationController
   end
 
   def new
+    @grade = Grade.new
   end
 
   def create
